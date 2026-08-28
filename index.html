@@ -1,89 +1,140 @@
 <!DOCTYPE html>
-
 <html lang="ja">
-
 <head>
-
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>半無人販売所</title>
+<title>🐦 青い鳥 半無人販売所</title>
 
 <style>
-
 body {
-
   margin: 0;
-
   font-family: sans-serif;
-
-  background: #f7fff0;
-
+  background: linear-gradient(135deg, #dff7ff, #fff7d6);
+  color: #333;
   text-align: center;
-
-  color: #222;
-
 }
 
 header {
-
-  background: #35a853;
-
-  color: white;
-
   padding: 35px 15px;
-
+  background: linear-gradient(135deg, #00aaff, #0066ff);
+  color: white;
+  border-radius: 0 0 35px 35px;
+  box-shadow: 0 5px 15px #999;
 }
 
 h1 {
-
-  font-size: 42px;
-
-  margin: 0 0 10px;
-
+  font-size: 45px;
+  margin: 5px;
 }
 
 .subtitle {
-
   font-size: 20px;
-
+  font-weight: bold;
 }
 
-.section {
+.notice {
+  margin: 25px auto;
+  padding: 15px;
+  max-width: 500px;
+  background: white;
+  border: 4px dashed #ff9900;
+  border-radius: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
 
-  padding: 25px 15px;
-
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 10px;
 }
 
 .card {
-
   background: white;
-
-  margin: 15px auto;
-
+  margin: 20px 10px;
   padding: 25px;
+  border-radius: 25px;
+  box-shadow: 0 5px 15px #bbb;
+}
 
-  max-width: 600px;
+.card h2 {
+  font-size: 28px;
+}
 
-  border-radius: 20px;
-
-  box-shadow: 0 4px 12px #ccc;
-
+.price {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ff5500;
 }
 
 .big {
-
-  font-size: 28px;
-
-  font-weight: bold;
-
+  font-size: 50px;
 }
 
 footer {
-
+  margin-top: 30px;
+  padding: 25px;
   background: #222;
-
   color: white;
+}
+</style>
+</head>
 
-  padding: 20px;
+<body>
+
+<header>
+  <div class="big">🐦</div>
+  <h1>青い鳥</h1>
+  <div class="subtitle">✨ 半無人販売所 ✨</div>
+</header>
+
+<div class="notice">
+  📢 ようこそ！<br>
+  青い鳥へ！
+</div>
+
+<div class="container">
+
+  <div class="card">
+    <div class="big">🥬🥕🍅</div>
+    <h2>🥬 新鮮野菜コーナー</h2>
+    <p>採れたて野菜を販売しています！</p>
+  </div>
+
+  <div class="card">
+    <div class="big">🎯🎁</div>
+    <h2>🎯 ワクワクくじ引き</h2>
+    <p class="price">1回 150円</p>
+    <p>何が当たるかはお楽しみ！</p>
+  </div>
+
+  <div class="card">
+    <div class="big">🎣🐟</div>
+    <h2>🎣 釣りゲーム</h2>
+    <p class="price">1回 150円</p>
+    <p>うまく釣れるかな？</p>
+  </div>
+
+  <div class="card">
+    <div class="big">💕🔮</div>
+    <h2>💕 恋みくじ</h2>
+    <p class="price">1回 100円</p>
+    <p>今日の恋の運勢は……？</p>
+  </div>
+
+  <div class="card">
+    <div class="big">🐦✨</div>
+    <h2>📢 青い鳥からのお知らせ</h2>
+    <p>ぜひ遊びに来てください！</p>
+    <p>🌟 楽しいこといっぱい！ 🌟</p>
+  </div>
+
+</div>
+
+<footer>
+  🐦 青い鳥 半無人販売所 🐦<br>
+  ご来店ありがとうございます！
+</footer>
+
+</body>
+</html>
